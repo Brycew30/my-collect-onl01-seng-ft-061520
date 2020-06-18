@@ -1,5 +1,5 @@
 array = ["a","b","c","d"]
-def my_collect(array) do |items|
+def my_collect(array)
   counter = 0
   while counter < array.length
    yield(array[counter])
